@@ -1,0 +1,29 @@
+{
+  "name": "hackathon_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.0",
+    "express": "^4.16.2",
+    "get-twitter-bearer-token": "^1.0.0",
+    "jquery": "^3.2.1",
+    "mark-js": "^0.2.7",
+    "mark.js": "^8.11.0",
+    "node-twitter-api": "^1.8.0",
+    "nodemon": "^1.12.1",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-highlight-words": "^0.10.0",
+    "react-highlighter": "^0.4.2",
+    "react-scripts": "1.0.17",
+    "socket.io": "^2.0.4",
+    "twitter": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080"
+}
